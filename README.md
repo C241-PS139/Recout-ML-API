@@ -16,7 +16,7 @@ POST {{Host}}/recommend
     "city" : "Jakarta"
 }
 ```
-**Response:**
+- **Response:**
 ```JSON
 [
     {
@@ -30,7 +30,7 @@ POST {{Host}}/recommend
     },
 ]
 ```
-**Note:** the block shown above shows 1 out of 5 recommendations.
+- **Note:** the block shown above shows 1 out of 5 recommendations.
 
 ## Steps
 1. Clone the git repository.
