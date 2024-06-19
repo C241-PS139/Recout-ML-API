@@ -10,8 +10,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 app = Flask(__name__)
 
 # Load OneHotEncoder and dataset
-onehot_encoder = joblib.load('app/onehot_encoder.pkl')
-ds = pd.read_csv('app/dataset.csv')
+onehot_encoder = joblib.load('onehot_encoder.pkl')
+ds = pd.read_csv('dataset.csv')
 
 # Convert temperature to categories
 def convert_temperature(temperature):
