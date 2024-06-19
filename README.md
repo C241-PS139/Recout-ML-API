@@ -8,7 +8,7 @@ Description....
 - **Recommendation Model**
 ```bash
 POST {{Host}}/recommend
-
+```
 **Response:**
 
 ```JSON
