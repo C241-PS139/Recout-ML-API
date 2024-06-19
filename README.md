@@ -1,6 +1,9 @@
 # Recout-ML-API
 
-Description....
+## Recommendation Outfit API
+This endpoint provides a function to provide outfit recommendations based on the temperature of the user's province. The user can submit the location of the province, as well as the gender and the API will return the top 5 outfit recommendations according to the user's province location and gender. The API uses the cosine similarity model to provide appropriate outfit recommendations.
+
+Base URL : https://recout-hmuyfxp55a-et.a.run.app/
 
 **Method:**
 >POST
