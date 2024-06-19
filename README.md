@@ -8,6 +8,32 @@ Description....
 - **Recommendation Model**
 ```bash
 POST {{Host}}/recommend
+
+**Response:**
+
+```JSON
+    {
+    "classes": [
+        "empty_bunch",
+        "overripe",
+        "ripe",
+        "rotten",
+        "underripe",
+        "unripe"
+    ],
+    "prob": [
+        6.216210022103041e-05,
+        0.025118131190538406,
+        0.6271576285362244,
+        7.381191971944645e-05,
+        0.3363390564918518,
+        0.011249292641878128
+    ],
+    "top_2": {
+        "ripe": 0.6271576285362244,
+        "underripe": 0.3363390564918518
+    }
+  }
 ```
 
 ## Step
@@ -35,4 +61,4 @@ python3 .\server.py
 "city" : "Jakarta"
 }
 ```
-6. The api will return some recommendations.
+6. The API will return some recommendations.
