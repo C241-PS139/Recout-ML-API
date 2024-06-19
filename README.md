@@ -35,4 +35,4 @@ python3 .\server.py
 "city" : "Jakarta"
 }
 ```
-7. The api will return some recommendations.
+6. The api will return some recommendations.
