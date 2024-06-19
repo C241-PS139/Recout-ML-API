@@ -28,7 +28,7 @@ or
 ```bash
 python3 .\server.py
 ```
-6. After the application startup complete, send a request to ```http://localhost:5000/recommend``` with a ```gender_product``` and ```city``` request, for example:
+5. After the application startup complete, send a request to ```http://localhost:5000/recommend``` with a ```gender_product``` and ```city``` request, for example:
 ```JSON
 {
 "gender_product" : "Men",
