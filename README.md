@@ -32,7 +32,7 @@ POST {{Host}}/recommend
 ```
 Note: the block shown above shows 1 out of 5 recommendations.
 
-## Step
+## Steps
 1. Clone the git repository.
 ```bash
 git clone https://github.com/C241-PS139/Recout-ML-API.git
