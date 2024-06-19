@@ -39,7 +39,7 @@ POST {{Host}}/recommend
 ## Step
 1. Clone the git repository.
 ```bash
-git clone https://github.com/C23-PS190-TemanSawit/TemanSawit-ml-api.git
+git clone https://github.com/C241-PS139/Recout-ML-API.git
 ```
 2. Install the required libraries from requirements.txt.
 ```bash
